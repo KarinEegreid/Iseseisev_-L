@@ -28,8 +28,9 @@ kordade_arv = int(input("Mitu korda kujund joonistada? "))
 juhendid = loe_juhendid('kilpkonn.txt')
 
 # Loome akna ja kilpkonna
+a = input("Sisestage soovitud värv inglise keeles: ")
 aken = turtle.Screen()
-aken.bgcolor("white")
+aken.bgcolor(a)
 k = turtle.Turtle()
 k.speed(0)
 
